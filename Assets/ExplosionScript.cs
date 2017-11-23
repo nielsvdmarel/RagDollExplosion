@@ -11,7 +11,7 @@ public class ExplosionScript : MonoBehaviour {
 	
 	void Update ()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             Explode();
         }
